@@ -25,33 +25,28 @@
 	</script>
 </head>
 <body>
-<!-- Hide this div until Win Initiated-->
 	<div id="hiddenWin" style="visibility: hidden;">
 		<div col-md-12 id="container2">
 			<img id="winImage" style="display: hidden;" src="assets/images/winImage.jpg">
 			<h1 id="hiddenWinH1" style="display: hidden;">You Win!!!</h1>
 		</div>	
 	</div>
-<!-- Main Container-- >    
 	<div class="container">
 		<div class="jumbotron">
-			<img src="assets/images/hangmanbannerimg.jpg">
+			<img src="assets/images/hangmanbannerimg.png">
 			<p class="white">Press Any Key To Get Started!</p>
 			<p class="rainbowize">Guess The Color</p>
 		</div>
-<!-- Panel with Letters Already Guessed-->        
 		<div class='col-md-6'>
 			<div class="panel panel-default">
 				<div class="panel-heading">
 					<h3 class="panel-title">Letters Already Guessed</h3>
 				</div>
-<!-- Panel with correct letters appearing-->     
 				<div class="panel-body">
 					<h2 id="wordToGuess">_ _ _ _ _ _ _</h2>
 				</div>
 			</div>
 		 </div>
-<!-- Panel with wrong letters displayed-->         
 		<div class='col-md-6'>
 			<div class='col-md-6'>
 				<div class="panel panel-default">
@@ -59,7 +54,6 @@
 				 		Wrong Guesses: <span id="wrongGuesses"></span>
 					</div>
 				</div>
-<!-- Panel with counter of gueses left   -->            
 			</div>
 			<div class='col-md-6'>
 				<div class="panel panel-default">
@@ -68,7 +62,6 @@
 					</div>
 				</div>
 			</div>
-<!-- Panel with number of games won -->
 			<div class='col-md-6'>
 				<div class="panel panel-default">
 					<div class="panel-body">
@@ -76,8 +69,7 @@
 					</div>
 				</div>
 			</div>
-<!-- Pangel with how many games have been lost-->	
-            <div class='col-md-6'>
+			<div class='col-md-6'>
 				<div class="panel panel-default">
 					<div class="panel-body">
 						Loss Counter:  <span id="lossCounter">0</span>
